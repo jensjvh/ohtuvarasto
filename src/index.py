@@ -1,5 +1,7 @@
 from varasto import Varasto
 
+def indent():
+     print("hi")
 
 def main():
     mehua = Varasto(100.0)
@@ -8,6 +10,14 @@ def main():
     print("Luonnin jälkeen:")
     print(f"Mehuvarasto: {mehua}")
     print(f"Olutvarasto: {olutta}")
+
+    if olutta.tilavuus:
+        print("olutta")
+        if olutta.tilavuus:
+            print("olutta")
+            if olutta.tilavuus:
+                print("olutta")
+
 
     print("Olut getterit:")
     print(f"saldo = {olutta.saldo}")
